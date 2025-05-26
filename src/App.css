@@ -1,0 +1,16 @@
+.container {
+  max-width: 1135px;
+}
+
+header {
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.828);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 46px;
+  color: white;
+}
