@@ -11,28 +11,7 @@ const App = () => {
       </header>
 
       <main>
-        <section>
-          <Jobs className="Full Time Sales Associate - " />
-          <Jobs title="Sydney Boutique" />
-          <Jobs contractType="CDI" />
-          <Jobs country="Australie" />
-          <Jobs city="Sydney" />
-        </section>
-
-        <section>
-          <Jobs className="Agent de Sécurité - " />
-          <Jobs title="Pantin" />
-          <Jobs contractType="CDI" />
-          <Jobs country="France" />
-          <Jobs city="Pantin" />
-        </section>
-
-        <section>
-          <Jobs className="Responsable d'Atelier (H/F)" />
-          <Jobs contractType="CDD" />
-          <Jobs country="France" />
-          <Jobs city="Paris" />
-        </section>
+        <Jobs />
       </main>
 
       <footer>
