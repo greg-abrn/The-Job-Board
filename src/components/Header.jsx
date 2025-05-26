@@ -1,11 +1,7 @@
 import Title from "./Title";
 
 const Header = (props) => {
-  return (
-    <header>
-      <Title title={props.title} />;
-    </header>
-  );
+  return <Title title={props.title} />;
 };
 
 export default Header;
