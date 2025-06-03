@@ -1,10 +1,12 @@
 import "./App.css";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 const App = () => {
   return (
     <>
       <header>
-        <h1>The Job Board</h1>
+        <Header />
       </header>
       <main>
         <div className="container">
@@ -12,7 +14,7 @@ const App = () => {
             <div>
               <p>Full Time Sales Associate - Sydney Boutique</p>
             </div>
-            <div>
+            <div className="bottom-desc">
               <span>CDI</span>
               <span> - </span>
               <span>Australie</span>
@@ -25,7 +27,7 @@ const App = () => {
             <div>
               <p>Agent de Sécurité - Pantin</p>
             </div>
-            <div>
+            <div className="bottom-desc">
               <span>CDI</span>
               <span> - </span>
               <span>France</span>
@@ -38,7 +40,7 @@ const App = () => {
             <div>
               <p>Responsable d'Atelier (H/F)</p>
             </div>
-            <div>
+            <div className="bottom-desc">
               <span>CDD</span>
               <span> - </span>
               <span>France</span>
@@ -51,7 +53,7 @@ const App = () => {
             <div>
               <p>Chef de Projets</p>
             </div>
-            <div>
+            <div className="bottom-desc">
               <span>CDD</span>
               <span> - </span>
               <span>France</span>
@@ -64,7 +66,7 @@ const App = () => {
             <div>
               <p>Développeur React.js</p>
             </div>
-            <div>
+            <div className="bottom-desc">
               <span>CDI</span>
               <span> - </span>
               <span>France</span>
@@ -77,7 +79,7 @@ const App = () => {
             <div>
               <p>Sales Associate Stockholm</p>
             </div>
-            <div>
+            <div className="bottom-desc">
               <span>CDI</span>
               <span> - </span>
               <span>Suède</span>
@@ -90,12 +92,12 @@ const App = () => {
             <div>
               <p>Vendeur/se - Crans Montana</p>
             </div>
-            <div>
+            <div className="bottom-desc">
               <span>CDI</span>
               <span> - </span>
               <span>Suisse</span>
               <span> - </span>
-              <span>Crans-Montana</span>
+              <span>Crans - Montana</span>
             </div>
           </div>
 
@@ -103,7 +105,7 @@ const App = () => {
             <div>
               <p>CRM & Data Quality Analyst</p>
             </div>
-            <div>
+            <div className="bottom-desc">
               <span>CDI</span>
               <span> - </span>
               <span>USA</span>
@@ -116,7 +118,7 @@ const App = () => {
             <div>
               <p>Infirmier (H/F)</p>
             </div>
-            <div>
+            <div className="bottom-desc">
               <span>CDI</span>
               <span> - </span>
               <span>France</span>
@@ -127,10 +129,7 @@ const App = () => {
         </div>
       </main>
       <footer>
-        <p>
-          Made with <span>React</span> at <span>Le Reacteur</span> by{" "}
-          <span>Greg</span>
-        </p>
+        <Footer />
       </footer>
     </>
   );
